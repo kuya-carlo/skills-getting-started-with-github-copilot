@@ -142,3 +142,40 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f0f8ff; /* Light blue tint for distinction */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.participants-section h5 {
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.participants-list {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0;
+}
+
+.participants-list li {
+  padding: 2px 0;
+  position: relative;
+}
+
+.delete-icon {
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
+}
